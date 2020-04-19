@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38500" started-at="2020-04-18T20:14:24 EDT" finished-at="2020-04-18T20:15:02 EDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.NewToursRunner@74650e52]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="38500" started-at="2020-04-18T20:14:24 EDT" finished-at="2020-04-18T20:15:02 EDT">
+      <class name="com.runner.NewToursRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.NewToursRunner@74650e52]" name="setUpClass" is-config="true" duration-ms="84" started-at="2020-04-18T20:14:24 EDT" finished-at="2020-04-18T20:14:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.NewToursRunner@74650e52]" name="runScenario" duration-ms="9042" started-at="2020-04-18T20:14:24 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-18T20:14:33 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to login to New Tours"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.NewToursRunner@74650e52]" name="runScenario" duration-ms="7055" started-at="2020-04-18T20:14:33 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-18T20:14:40 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is unable to login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.NewToursRunner@74650e52]" name="runScenario" duration-ms="7546" started-at="2020-04-18T20:14:40 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-18T20:14:48 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is unable to login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.NewToursRunner@74650e52]" name="runScenario" duration-ms="7149" started-at="2020-04-18T20:14:48 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-18T20:14:55 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is unable to login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.NewToursRunner@74650e52]" name="runScenario" duration-ms="7089" started-at="2020-04-18T20:14:55 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-18T20:15:02 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is unable to login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.NewToursRunner@74650e52]" name="tearDownClass" is-config="true" duration-ms="478" started-at="2020-04-18T20:15:02 EDT" finished-at="2020-04-18T20:15:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.NewToursRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
